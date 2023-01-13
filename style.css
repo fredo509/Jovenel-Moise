@@ -1,0 +1,86 @@
+body{
+    padding: 10px 10px;
+
+
+}
+p{
+    font-size: 100%;
+}
+
+#main{
+    background-color: darkgrey;
+    border-radius: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 200%;
+}
+.persDesc{
+    text-align: center;
+    font-size: 100%;
+}
+
+#img-div{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5%;
+    
+    
+}
+#image{
+    max-width:70%;
+    align-self: center;
+    height: auto;
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 100%;
+    
+
+    
+    
+}
+
+#tribute-info h2 {
+    align-self: center;
+    font-size: 150%;
+}
+
+#tribute-info ul{
+    text-align: justify;
+    width: 70%;
+    align-self: center;
+} 
+#tribute-info li {
+    margin-bottom: 10px;
+}
+
+#tribute-info p{
+    width: 70%;
+    align-self: center;
+    font-size: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+    
